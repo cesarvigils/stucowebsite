@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
         emailjs.init("Ja0ygnE_FA1EjbjGk"); 
     })();
 
-    // Manejo de enlaces de navegación
     const navLinks = document.querySelectorAll('nav ul li a');
     navLinks.forEach(link => {
         link.addEventListener('click', (event) => {
@@ -24,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Manejo del botón "Learn More"
     const learnMoreBtn = document.querySelector('.btn');
     if (learnMoreBtn) {
         learnMoreBtn.addEventListener('click', (event) => {
@@ -36,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Manejo del formulario de contacto
     const contactForm = document.getElementById('contact-form');
     const formResponse = document.getElementById('form-response');
 
@@ -67,4 +64,20 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+    document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    
+        const links = document.querySelectorAll('.nav-links li a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+            });
+        });
+    });
+    
 });
