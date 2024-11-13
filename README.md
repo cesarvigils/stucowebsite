@@ -8,7 +8,7 @@ Features and Functionality:
 **Homepage:**
 A welcoming section with a brief introduction to the Student Council.
 Links to key sections of the website for easy navigation.
-**About Us Page:**Information about the council members, including profiles with photos, names, and roles .
+**About Us Page** Information about the council members, including profiles with photos, names, and roles .
 A focus on the mission and goals of the Student Council.
 Names are ready with roles, need filling
 **Events Section:**
