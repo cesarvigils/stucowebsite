@@ -18,12 +18,15 @@ Display of upcoming events and activities organized by the council. (Needs filli
 **Contact Page:**
 A contact form that allows users to reach out to the council directly.
 Integration with EmailJS to enable email submissions without a server backend, making it efficient for static website deployments. (Spent my whole day doing it)
+
 **Aspects:**
 HTML, CSS, and JavaScript were used to build the frontend
 EmailJS
 Works In Phones
 **Outcome With Final Revision by me**
 https://cesarvigils.github.io/stucowebsite/index.html
+
+
 **Notes:** 
 
 Design will be changed with the design team
